@@ -1,0 +1,62 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build NetGuard (g++)",
+            "type": "process",
+            "command": "C:/Users/41223/Downloads/msys64/mingw64/bin/g++.exe",
+            "args": [
+                "-std=c++17",
+                "-O2",
+                "-mwindows",
+                "-static",
+                "-o",
+                "${workspaceFolder}/NetGuard.exe",
+                "${workspaceFolder}/main.cpp",
+                "${workspaceFolder}/netguard_res.o",
+                "-liphlpapi",
+                "-lpsapi",
+                "-lws2_32",
+                "-lwinhttp",
+                "-lcomctl32"
+            ],
+            "options": {
+                "env": {
+                    "PATH": "C:\\Users\\41223\\Downloads\\msys64\\mingw64\\bin;${env:PATH}"
+                }
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "使用 MinGW g++ 编译 NetGuard v2.0 GUI",
+            "dependsOn": "Compile Resource"
+        },
+        {
+            "label": "Compile Resource",
+            "type": "process",
+            "command": "C:/Users/41223/Downloads/msys64/mingw64/bin/windres.exe",
+            "args": [
+                "${workspaceFolder}/netguard.rc",
+                "-o",
+                "${workspaceFolder}/netguard_res.o"
+            ],
+            "options": {
+                "env": {
+                    "PATH": "C:\\Users\\41223\\Downloads\\msys64\\mingw64\\bin;${env:PATH}"
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run NetGuard",
+            "type": "process",
+            "command": "${workspaceFolder}/NetGuard.exe",
+            "group": "test",
+            "problemMatcher": [],
+            "detail": "运行 NetGuard (建议以管理员身份运行 VS Code)",
+            "dependsOn": "Build NetGuard (g++)"
+        }
+    ]
+}
