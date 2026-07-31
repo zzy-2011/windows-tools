@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run NetGuard",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/NetGuard.exe",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Build NetGuard (g++)"
+        }
+    ]
+}
