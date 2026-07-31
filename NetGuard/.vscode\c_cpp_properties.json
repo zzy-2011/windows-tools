@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "name": "MinGW-w64",
+            "compilerPath": "C:/Users/41223/Downloads/msys64/mingw64/bin/g++.exe",
+            "compilerArgs": [
+                "-std=c++17"
+            ],
+            "intelliSenseMode": "windows-gcc-x64",
+            "includePath": [
+                "${workspaceFolder}",
+                "C:/Users/41223/Downloads/msys64/mingw64/include",
+                "C:/Users/41223/Downloads/msys64/mingw64/include/c++/15.2.0",
+                "C:/Users/41223/Downloads/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32",
+                "C:/Users/41223/Downloads/msys64/mingw64/include/c++/15.2.0/backward",
+                "C:/Users/41223/Downloads/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include",
+                "C:/Users/41223/Downloads/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"
+            ],
+            "defines": [
+                "_WIN32_WINNT=0x0601",
+                "_REENTRANT",
+                "__MINGW32__",
+                "__MINGW64__",
+                "_WIN32",
+                "_WIN64",
+                "__x86_64__"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "C:/Users/41223/Downloads/msys64/mingw64/include",
+                    "C:/Users/41223/Downloads/msys64/mingw64/include/c++/15.2.0"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
