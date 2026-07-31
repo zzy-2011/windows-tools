@@ -1,0 +1,11 @@
+{
+    "C_Cpp.default.compilerPath": "C:/Users/41223/Downloads/msys64/mingw64/bin/g++.exe",
+    "terminal.integrated.env.windows": {
+        "PATH": "C:\\Users\\41223\\Downloads\\msys64\\mingw64\\bin;${env:PATH}"
+    },
+    "cmake.cmakePath": "",
+    "C_Cpp.intelliSenseEngine": "default",
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.intelliSenseMode": "windows-gcc-x64",
+    "C_Cpp.loggingLevel": "Warning"
+}
