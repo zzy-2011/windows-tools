@@ -1,0 +1,3 @@
+// pe.rc - embed UAC manifest + common controls
+#include <windows.h>
+1 RT_MANIFEST "pe.manifest"
