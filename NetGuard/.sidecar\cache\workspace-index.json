@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "buildTime": "2026-04-18T04:05:46.027Z",
+  "fileCount": 3,
+  "files": [
+    {
+      "path": "main.cpp",
+      "size": 59262,
+      "score": 0.1
+    },
+    {
+      "path": "resource.h",
+      "size": 1282,
+      "score": 0.02
+    },
+    {
+      "path": ".vscode\\tasks.json",
+      "size": 957,
+      "score": 0.05
+    }
+  ]
+}
