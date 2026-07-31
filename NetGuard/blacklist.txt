@@ -1,0 +1,24 @@
+# NetGuard IP 黑名单
+# 每行一个 IP 地址, # 开头为注释
+# 你可以从威胁情报平台获取恶意 IP 并添加到此文件
+#
+# 示例格式:
+# 198.51.100.1
+# 203.0.113.50
+#
+# ==== 以下为示例/测试 IP (来自 RFC 5737 文档保留地址段) ====
+# 这些 IP 不会在真实网络中出现, 仅作示例:
+198.51.100.1
+198.51.100.2
+198.51.100.100
+203.0.113.1
+203.0.113.50
+203.0.113.100
+
+# ==== 已知恶意基础设施 IP 示例 ====
+# 请根据实际威胁情报替换以下内容:
+# 你可以从以下来源获取威胁 IP:
+#   - AbuseIPDB (https://www.abuseipdb.com/)
+#   - VirusTotal (https://www.virustotal.com/)
+#   - AlienVault OTX (https://otx.alienvault.com/)
+#   - Emerging Threats (https://rules.emergingthreats.net/)
